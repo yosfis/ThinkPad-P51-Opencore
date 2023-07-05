@@ -124,7 +124,7 @@ After a while, you'll be looking at your working macOS install. Congrats!
 ---
 # After you're done with that, let's get to our own Post-Install stuff.
 ## 1. Fixing SD Card.
-To do this, all you have to do is add `RealtekSDCardReader` and `RealtekSDCardReaderFriend` from this repository's **kexts** folder.
+To do this, all you have to do is add [`RealtekSDCardReader`](https://github.com/0xFireWolf/RealtekCardReader/releases/) and [`RealtekSDCardReaderFriend`](https://github.com/0xFireWolf/RealtekCardReaderFriend/releases) from each of their repositories (linked)
 
 ## 2. Fixing Bluetooth
 If you're running macOS 12.3 or higher and bluetooth has stopped working, download the latest commit of `BrcmPatchRAM` from [here](https://dortania.github.io/builds/?product=BrcmPatchRAM&viewall=true&version=2.6.8&sha=2305aaa145a0021559f444d33a5adaacb6469050). Copy `BlueToolFixup.kext` to your kexts folder.
